@@ -1,0 +1,56 @@
+.Chat{
+    position: absolute;
+    height: 85vh;
+    width: 60vw;
+    top: 7.5vh;
+    left: 20vw;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.3); 
+}
+
+.Chat-Container {
+    height: 90%;
+    overflow-y: auto;
+}
+
+.Chat-single-data{
+    display: block;
+    background-color: white;
+    max-width: 70%;
+    border-radius: 20px;
+    color: black;
+    padding: 5px 10px;
+    margin-top: 4px;
+}
+.chat-bot{
+    float: left;
+    clear: both;
+    margin-left: 10px;
+}
+.chat-user{
+    float: right;
+    clear: both;
+    margin-right: 10px;
+    background-color:  #b3ffff;
+}
+
+.Chat-input {
+    width: 100%;
+    text-align: left;
+}
+
+.Chat-input input {
+    width: 70%;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.message-send-button {
+    padding: 4px 10px;
+    background-color: whitesmoke;
+    color: black;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}

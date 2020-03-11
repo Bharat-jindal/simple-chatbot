@@ -1,0 +1,27 @@
+.Microphone-image-container{
+}
+
+.Microphone-image-container-static {
+    position: absolute;
+    top: 200px;
+    left: 44vw;
+    width: 12vw;
+}
+
+.Microphone-image-container-gif {
+    position: absolute;
+    top: 200px;
+    left: 35vw;
+    width: 30vw;
+}
+
+.Microphone-text {
+    position: fixed;
+    bottom: 100px;
+    text-align: left;
+    font-family: "Lucida Console",Monospace;
+    width: 60vw;
+    left: 20vw;
+    font-size: x-large;
+    padding: 10px 0px;
+}
